@@ -1,0 +1,423 @@
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+
+body{
+    background: rgb(228, 238, 175);
+  }
+  #app {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2C3E50;
+    margin: 60px auto 0 auto;
+  }
+  /*#nav {
+    border-style: double;
+  }*/
+  img {
+    border-radius: 8px;
+  }
+  img {
+    display: inline-block;
+    margin: 25px 10px; 
+    } 
+    #aboutus{
+      width: 50%;
+    }
+    #hours{
+      width: 25%;
+    }
+    #locations{
+      width: 25%;
+    }
+    .row{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+    footer {
+      font-family: "Avenir", Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: center;
+      background-color:rgb(26, 80, 80);
+      
+    }
+    .site-footer{
+      
+      padding:auto;
+      font-size:15px;
+      line-height:24px;
+      color: white;
+      max-width: 1000px;
+      margin: 200px auto 0px auto;
+    }
+    
+    
+    
+    .site-footer h6{
+      color:#fff;
+      font-size:16px;
+      text-transform:uppercase;
+      margin-top:5px;
+      letter-spacing:2px
+    }
+    .site-footer a{
+      color:white;
+    }
+    .site-footer a:hover{
+      color:#3366cc;
+      text-decoration:none;
+    }
+    .footer-links{
+      padding-left:0;
+      list-style:none
+    }
+    .footer-links li{
+      display:block
+    }
+   
+    .copyright-text{
+      margin:0
+    }
+    
+   
+    
+body{
+  background: rgb(200, 240, 240);
+}
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  max-width: auto;
+  margin: 60px auto 0 auto;
+}
+#nav {
+  border-style: double ;
+  padding-top: 50px;
+  padding-inline-end: 20px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  font-size: 17px;
+  border-radius: 35px;
+  color:rgb(224, 166, 99);
+  font-family: Cambria;
+}
+
+  .footer-links a{
+    color:white;
+  }
+  
+ 
+  .site-footer .social-icons a{
+    width:40px;
+    height:40px;
+    
+    margin-left:6px;
+    
+    border-radius:100%;
+
+    
+    
+  }
+  
+  
+  .social-icons{
+    padding-left:0;
+    margin-bottom:0;
+    flex: auto;
+  }
+  .social-icons li{
+    display:inline-block;
+    margin-bottom:4px;
+    
+  }
+  
+  .social-icons a{
+    
+    font-size: 40px;;
+    
+    display:inline-block;
+    
+  }
+  
+  .social-icons.size-sm a{
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+  }
+ 
+  .customCakeOrder{
+    font-family: Cambria;
+    align-self:center;
+      
+    
+      transition:all .5s ease;
+      color:#3d3b37;
+      font-size:2rem;
+      letter-spacing:1px;
+      outline:none;
+      border-radius: 25px 15px 225px 15px/15px 0px 15px 255px
+  }
+  .container {
+    display: grid inline-grid;
+  }
+  .container {
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+  }
+  .cakeOrder{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    font-family: Cambria;
+    font-size-adjust: 50px;
+
+
+
+  }.pendingOrderList{
+    font-family: Cambria; 
+    Color: 551A8B;
+    
+  }h2{
+    font-family: Cambria;
+    font-size: 40px;
+    color:rgb(224, 166, 99);
+    
+    
+  }img {
+    border-radius: 8px;
+    width: 726px;
+    height: 580px;
+    
+
+}input{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 14px
+
+}
+body{
+  border: 2px solid #FFF7F8;
+ padding: 0px;
+}
+/*buttons*/
+
+button {
+width: 200px;
+height: 50px;
+border-radius: 14px;
+}
+
+box {
+ height: 104px;
+ width: 100px;
+}
+
+
+
+div {
+ display: display-outside;
+ flex-direction: row;
+ margin-top: 15px;
+ vertical-align: middle;
+ border-radius: 90px;
+}
+lines {
+ height: 10px;
+ margin-top: 10px;
+ width: 200px;
+}
+photo {
+ display: block!important;
+ width: 325px;
+ height: 100px;
+ margin-top: 15px;
+}
+@-webkit-keyframes placeholderShimmer {
+ 0% {
+   background-position: -468px 0;
+ }
+ 100% {
+   background-position: 468px 0;
+ }
+}#submit{
+  border-radius: 14px;
+}
+
+/*  CSS GRID flexbox and fall back*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	
+}
+
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+}
+
+
+.gallery-image {
+  width: 400px;
+  height: 400px;
+}
+
+
+/*geroge w park 471-475*/
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 10px;
+	}
+}
+#cAndSCakesHeading{
+  font-family: Cambria;
+  font-size: 40px;
+  color:rgb(224, 166, 99);
+}
+#welcomeTo{
+  font-family: Cambria;
+  font-size: 40px;
+  color:rgb(224, 166, 99);
+}#authWarning{
+  font-family: Cambria;
+  font-size: 25px; 
+}img {
+  display: inline-block;
+  margin: 2px 10px;
+}#rainbowCake {
+  border-radius: 47px;
+  width: 600px;
+  height: 642px;
+}.gallery, .gallery-item {
+  margin: -2px;
+}
+element.style {
+  background: rgb(25, 219, 219);
+  border-radius: 9px;
+}
+#startHere{
+  text-underline-offset: 10px;
+}
+
+.pendingOrder {
+  border-style: double ;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.historicalReport {
+  border-style: double ;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.cakeAvailability {
+  border-style: double;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: lightgray;
+}
+
+.cakeAvailability img {
+  width: 400px;
+  height: 400px;
+
+}
+
+.premadeCake {
+  border-style: double;
+  max-width: 800px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  background-color: lightgray;
+}
+
+.upcomingOrders {
+  border-style: double ;
+  padding-top: 20px;
+}
+  
+.Select {
+  size: 100px;
+  height: 50px;
+}
+:root {
+  font-size: 24px;
+
+  
+}#authWarning{
+  font-family: Cambria;
+  font-size: 40px;
+  color: rgb(224, 166, 99);
+  font-weight: bold;
+}
+
+.orderSearchResults {
+   border-style: double ;
+  padding-top: 20px;
+}
+
+.navButton:hover {
+  background-color: rgb(224, 166, 99);
+}
+
+.review {
+  background-color: lightgray;
+  border-radius: 0%;
+  margin: 50px 50px 50px 50px;
+  font-family: 'URW Chancery L', cursive;
+  font-style: italic;
+}
+
+.reviewer {
+  font-weight: bold;
+}
